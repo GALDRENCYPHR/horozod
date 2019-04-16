@@ -48,18 +48,19 @@ method="get" target="_blank">
         <hr class="my-4">
         <div class="io">
         <label for="name">Surname: </label>
-        <input class="form-control" type="text"
-        placeholder="your surname here" name="surname"><br>
+        <input id = "theSurname" class="form-control" type="text"
+        placeholder="Your Surname here" name="surname"><br>
         <label for="name">Name: </label>
-        <input class="form-control" type="text"
-        placeholder="your name here" name="name"><br>
+        <input id = "theFirstName" class="form-control" type="text"
+        placeholder="Your Firstname here" name="name"><br> 
         <label for="name">Birth Date: </label>
-        <input class="form-control" type="number"
-        name="date" value="01" min="01" max="31">
-        <label for="name">Birth month: </label>
-        <input class="form-control" type="month"
-        name="date" value="january">
-        <input class="btn btn-default"type="submit" value="submit">
+        <input id="dateInput" class="form-control" type="number"
+        name="date" min="1" max="31">
+        <label  for="name">Birth month: </label>
+        <input id= "monthInput" class="form-control" type="text"
+        name="date" placeholder="Use Sentence case">
+        <input class="btn btn-default"type="submit" value="Submit">
+        <p id="horo"></p>
         </div>
       </div>
     </div>
@@ -67,6 +68,7 @@ method="get" target="_blank">
   </fieldset>
 
 </form>
+<script src="index.js"></script>
 
 </div>
 
@@ -96,7 +98,7 @@ method="get" target="_blank">
 <footer>
   <div class="col-12">
       <hr class="light-100">
-      <h5>&copy;galdren_cyphr.com/DDK</h5>
+      <h5>&copy;TheHelias/galdren_cyphr.com/DDK</h5>
     </div>
 </footer>
 </body>
